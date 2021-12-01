@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.noDisplay {
+    display:none;
+}
+
+/* Table */
+
+.tableContainer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align:center;
+    max-width: 60rem;
+}
+
+.title {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:rgb(59, 77, 93);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.table {
+    display: grid;
+    grid-auto-rows: auto;
+    row-gap: 10px;
+    background-color:rgb(255, 255, 254);
+}
+
+.heading {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    column-gap: 10px;
+}
+
+
+.heading h5 {
+    color:rgb(59, 77, 93);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    text-align:left;
+    cursor:pointer;
+    
+}
+
+.user p {
+    font-size: 0.9rem;
+    border-left:0.1rem rgb(80, 165, 189) solid;
+    border-top:0.1rem rgb(80, 165, 189) solid;
+    padding-left: 0.3rem;
+    padding-bottom:0.3rem;
+    margin-left:0.3rem;
+    color:rgb(59, 77, 93);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.user p:hover {
+    border-left: 0.1rem rgb(235, 36, 29) solid ;
+    border-top: 0.1rem rgb(235, 36, 29) solid;
+}
+
+/* Posts */
+
+.postsContainer {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   /* text-align:center;*/
+    max-width:60rem;
+}
+
+.closeBtn {
+    position:absolute;
+    top: 2%;
+    right: 3%;
+    cursor: pointer;
+    background-color:rgb(217, 228, 238);
+    color:rgb(79, 90, 98);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.posts {
+    background-color:ghostwhite;
+}
+
+
+.postsTitle{
+    text-align:center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:rgb(59, 77, 93);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.post {
+    position: relative;
+    margin: 0.5rem;
+    background-color:white;
+    border:1px solid rgb(162, 174, 185);
+    border-radius: 0.3rem;
+    margin: 0.2rem;
+    
+}
+
+.postTitle {
+    text-align: center;
+    margin-top: 0.2rem;
+    color:rgb(100, 112, 122);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.postContent{
+    border-top: 1px solid rgb(162, 174, 185);
+    border-bottom: 1px solid rgb(162, 174, 185);
+}
+.postContent p {
+    color:rgb(100, 112, 122);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.toggle{
+    background-color:rgb(217, 228, 238);
+    color:rgb(79, 90, 98);
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.8rem;
+    font-size: 0.7rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+
+
